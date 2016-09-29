@@ -4,3 +4,6 @@ function getDay (date) {
 }
 
 getDay('2016-09-17') ;
+
+
+Just testing... 
