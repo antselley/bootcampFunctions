@@ -1,8 +1,8 @@
 function getDay (date) {
-  var d = Date(date);
-  var weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Saturday','Sunday'] ;
-  console.log(weekDays[date.getDay()])  ;
-  return weekDays[date.getDay()]
+  var d = new Date(date);
+  var weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Saturday'] ;
+  console.log(weekDays[d.getDay()])  ;
+  return weekDays[d.getDay()]
 }
 
-getDay('2016-09-17') ;
+getDay('2016-09-04') ;
