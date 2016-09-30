@@ -12,4 +12,4 @@ function autoAlarm (day) {
 
 autoAlarm('Sunday');
 autoAlarm('Saturday');
-autoAlarm('Wednesday');
+autoAlarm('Monday');
